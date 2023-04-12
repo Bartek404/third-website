@@ -732,7 +732,7 @@ body {
 
 	.header {
 		background-image: color.$blue-gradient, url('../img/header-big.jpg');
-
+		background-attachment: fixed;
 		&__heading {
 			font-size: 10rem;
 		}
@@ -768,6 +768,7 @@ body {
 	.hero-img {
 		padding: 40rem 2em;
 		background-image: color.$blue-gradient, url('../img/hero-big.jpg');
+		background-attachment: fixed;
 
 		&__title {
 			font-size: 7.2rem;
@@ -781,6 +782,7 @@ body {
 
 	.offers {
 		background-image: color.$blue-gradient, url(../img/maldives-big.jpg);
+		background-attachment: fixed;
 
 		&__option {
 			&-img {

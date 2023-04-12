@@ -13,7 +13,7 @@
 	background-image: color.$blue-gradient, url($bgImg);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 @mixin islandsCardStyles {
